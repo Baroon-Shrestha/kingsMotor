@@ -3,24 +3,9 @@ import React from "react";
 export default function HomeLocation() {
   const dealers = [
     {
-      name: "AIT Thapathali",
-      address: "Thapathali, Kathmandu Metropolitan City",
-      phone: "01-4245361",
-    },
-    {
-      name: "AIT Dhobighat",
-      address: "Dhobighat, Lalitpur Metropolitan City",
-      phone: "01-5188490",
-    },
-    {
-      name: "Shree Mangalam Enterprises",
-      address: "Ghantaghar, Birgunj Metropolitan City",
-      phone: "051-522164",
-    },
-    {
-      name: "Swargadwari Auto Distributors",
-      address: "BP Chowk, Ghorahi Sub-Metropolitan City",
-      phone: "082-560034",
+      name: "Kings Motor Compnany PVT. LTD",
+      address: "Bigatnagar-04, Morang, Nepal",
+      phone: "+977-985-2030175",
     },
   ];
 
@@ -32,18 +17,6 @@ export default function HomeLocation() {
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
             Locate Dealer
           </h2>
-
-          {/* Search Box */}
-          <div className="flex mb-4">
-            <input
-              type="text"
-              placeholder="Search Dealer..."
-              className="flex-1 px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-red-500"
-            />
-            <button className="bg-red-600 text-white px-4 py-2 rounded-r-lg hover:bg-red-700">
-              🔍
-            </button>
-          </div>
 
           {/* Dealer Entries */}
           <div className="space-y-4">

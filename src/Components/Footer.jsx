@@ -95,13 +95,13 @@ export default function Footer() {
           <h3 className="text-xl font-semibold text-white mb-4">Contact Us</h3>
           <ul className="space-y-2 text-gray-400">
             <li className="flex items-center">
-              <FaMapMarkerAlt className="mr-2" /> Thapathali, Kathmandu, Nepal
+              <FaMapMarkerAlt className="mr-2" /> Biratnagar-04, Morang, Nepal
             </li>
             <li className="flex items-center">
-              <FaPhoneAlt className="mr-2" /> +977-1-1234567
+              <FaPhoneAlt className="mr-2" /> +977-985-2030175
             </li>
             <li className="flex items-center">
-              <FaEnvelope className="mr-2" /> info@kingsmotor.com
+              <FaEnvelope className="mr-2" /> kingsmotorcpl@gmail.com
             </li>
           </ul>
         </div>

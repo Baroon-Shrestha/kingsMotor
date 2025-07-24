@@ -80,14 +80,14 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Call Us",
-      content: "+977 986-4687572",
+      content: "+977 985-2030175",
       description: "Available 24/7 for your inquiries",
       action: { text: "Call Now", href: "tel:+9779864687572", color: "blue" },
     },
     {
       icon: MessageCircle,
       title: "WhatsApp",
-      content: "+977 986-4687572",
+      content: "+977 985-2030175",
       description: "Quick responses guaranteed",
       action: {
         text: "Chat Now",
@@ -98,7 +98,7 @@ export default function Contact() {
     {
       icon: MapPin,
       title: "Visit Us",
-      content: "Kathmandu, Nepal",
+      content: "Biratnagar-4, Morang, Nepal",
       description: "Come see our showroom",
       action: { text: "Get Directions", href: "#", color: "purple" },
     },
